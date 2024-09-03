@@ -12,7 +12,7 @@ async function loadPdf() {
 
 async function extractTextFromPdf(pdf) {
     let text = '';
-    const startPage = 27; // Start from page 27
+    const startPage = 1; // Start from page 27
     const totalPages = pdf.numPages;
 
     for (let i = startPage; i <= totalPages; i++) {
